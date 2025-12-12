@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-header {
+  display: flex;
+}
+
+.title {
+  margin-left: 12px;
+  font-weight: 500;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.btn-menu,
+.btn-cadastro a,
+.btn-consulta a {
+  color: white;
+  text-decoration: none;
+}
