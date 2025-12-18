@@ -1,0 +1,10 @@
+.btn-edit {
+  min-width: 40px; /* remove o tamanho padrão largo */
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

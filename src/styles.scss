@@ -22,3 +22,25 @@ body {
 .ml-5 {
   margin-left: 5px;
 }
+
+.snackError .mat-mdc-snackbar-surface {
+  background: #d32f2f !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+  margin-top: 50px;
+}
+.snackError .mat-mdc-button,
+.snackError .mat-mdc-snack-bar-action {
+  color: #fff !important;
+}
+
+.snackInfo .mat-mdc-snackbar-surface {
+  background: green !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+  margin-top: 50px;
+}
+.snackInfo .mat-mdc-button,
+.snackInfo .mat-mdc-snack-bar-action {
+  color: #fff !important;
+}
